@@ -10,7 +10,6 @@ public static class DependencyInjection
         services.AddScoped<ICandidateRepositories, ICandidateRepositories>();
         services.AddScoped<IEmployerRepositories, IEmployerRepositories>();
         
-
         return services;
 
     }

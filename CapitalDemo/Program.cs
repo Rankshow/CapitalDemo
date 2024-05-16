@@ -1,6 +1,15 @@
 var builder = WebApplication.CreateBuilder(args);
+var configuration = builder.Configuration;
 
 // Add services to the container.
+builder.Services.AddSingleton((provider) =>
+{
+    var endpointUri = configuration["CosmosDBSettings:EndpointUri"];
+    var primaryKey = configuration["CosmosDBSettings:PrimaryKey"];
+    var databaseName = configuration["CosmosDBSettings:DatabaseName"];
+   
+    var CosmosClientOption = CosmosClientOption
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
