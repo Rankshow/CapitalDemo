@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace CapitalDemo.Domain.Models;
 
-namespace CapitalDemo.Domain.Models
+public class Employer : Common
 {
-    internal class Employer
-    {
-    }
+    public string Paragraph { get; set; }
+    public string YearOfGraduation { get; set; }
+    public string[] MultipleChoice { get; set; }
+    public bool YesOrNo {  get; set; }
+    public int YearsOfExperience { get; set; }
+    public DateOnly YearMovedToUk { get; set; }
 }

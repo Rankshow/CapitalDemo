@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\CapitalDemo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFDB1121-8372-4581-B9FF-1C1E8481291D}|CapitalDemo.Repository\\CapitalDemo.Repository.csproj|c:\\users\\user\\source\\repos\\capitaldemo\\capitaldemo.repository\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFDB1121-8372-4581-B9FF-1C1E8481291D}|CapitalDemo.Repository\\CapitalDemo.Repository.csproj|solutionrelative:capitaldemo.repository\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{352C51E3-C1DE-4A52-965F-16517C3B9A05}|CapitalDemo\\CapitalDemo.csproj|c:\\users\\user\\source\\repos\\capitaldemo\\capitaldemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{352C51E3-C1DE-4A52-965F-16517C3B9A05}|CapitalDemo\\CapitalDemo.csproj|solutionrelative:capitaldemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B031FE6-E154-489E-8D4C-99B89A4B5CD3}|CapitalDemo.Domain\\CapitalDemo.Domain.csproj|c:\\users\\user\\source\\repos\\capitaldemo\\capitaldemo.domain\\interface\\icandidaterepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B031FE6-E154-489E-8D4C-99B89A4B5CD3}|CapitalDemo.Domain\\CapitalDemo.Domain.csproj|solutionrelative:capitaldemo.domain\\interface\\icandidaterepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B031FE6-E154-489E-8D4C-99B89A4B5CD3}|CapitalDemo.Domain\\CapitalDemo.Domain.csproj|c:\\users\\user\\source\\repos\\capitaldemo\\capitaldemo.domain\\interface\\iemployerrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B031FE6-E154-489E-8D4C-99B89A4B5CD3}|CapitalDemo.Domain\\CapitalDemo.Domain.csproj|solutionrelative:capitaldemo.domain\\interface\\iemployerrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B031FE6-E154-489E-8D4C-99B89A4B5CD3}|CapitalDemo.Domain\\CapitalDemo.Domain.csproj|c:\\users\\user\\source\\repos\\capitaldemo\\capitaldemo.domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B031FE6-E154-489E-8D4C-99B89A4B5CD3}|CapitalDemo.Domain\\CapitalDemo.Domain.csproj|solutionrelative:capitaldemo.domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B031FE6-E154-489E-8D4C-99B89A4B5CD3}|CapitalDemo.Domain\\CapitalDemo.Domain.csproj|c:\\users\\user\\source\\repos\\capitaldemo\\capitaldemo.domain\\entities\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B031FE6-E154-489E-8D4C-99B89A4B5CD3}|CapitalDemo.Domain\\CapitalDemo.Domain.csproj|solutionrelative:capitaldemo.domain\\entities\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B031FE6-E154-489E-8D4C-99B89A4B5CD3}|CapitalDemo.Domain\\CapitalDemo.Domain.csproj|c:\\users\\user\\source\\repos\\capitaldemo\\capitaldemo.domain\\entities\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B031FE6-E154-489E-8D4C-99B89A4B5CD3}|CapitalDemo.Domain\\CapitalDemo.Domain.csproj|solutionrelative:capitaldemo.domain\\entities\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo\\Program.cs",
+              "RelativeDocumentMoniker": "CapitalDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo\\Program.cs",
+              "RelativeToolTip": "CapitalDemo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:05:57.469Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -22,6 +64,84 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Repository\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "CapitalDemo.Repository\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Repository\\DependencyInjection.cs",
+              "RelativeToolTip": "CapitalDemo.Repository\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:45:27.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmployerRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Domain\\Interface\\IEmployerRepositories.cs",
+              "RelativeDocumentMoniker": "CapitalDemo.Domain\\Interface\\IEmployerRepositories.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Domain\\Interface\\IEmployerRepositories.cs",
+              "RelativeToolTip": "CapitalDemo.Domain\\Interface\\IEmployerRepositories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:17:20.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICandidateRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Domain\\Interface\\ICandidateRepositories.cs",
+              "RelativeDocumentMoniker": "CapitalDemo.Domain\\Interface\\ICandidateRepositories.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Domain\\Interface\\ICandidateRepositories.cs",
+              "RelativeToolTip": "CapitalDemo.Domain\\Interface\\ICandidateRepositories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:12:42.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Common.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Domain\\Entities\\Common.cs",
+              "RelativeDocumentMoniker": "CapitalDemo.Domain\\Entities\\Common.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Domain\\Entities\\Common.cs",
+              "RelativeToolTip": "CapitalDemo.Domain\\Entities\\Common.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T13:59:53.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Domain\\Entities\\Employer.cs",
+              "RelativeDocumentMoniker": "CapitalDemo.Domain\\Entities\\Employer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Domain\\Entities\\Employer.cs",
+              "RelativeToolTip": "CapitalDemo.Domain\\Entities\\Employer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T13:54:52.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Domain\\Entities\\Candidate.cs",
+              "RelativeDocumentMoniker": "CapitalDemo.Domain\\Entities\\Candidate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Domain\\Entities\\Candidate.cs",
+              "RelativeToolTip": "CapitalDemo.Domain\\Entities\\Candidate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T13:47:39.731Z",
+              "EditorCaption": ""
             }
           ]
         }
