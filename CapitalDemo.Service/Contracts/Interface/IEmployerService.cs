@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CapitalDemo.Service.Contracts.Dtos;
+using CapitalDemo.Service.Contracts.Request;
+using CapitalDemo.Service.Contracts.Response;
 
-namespace CapitalDemo.Service.Contracts.Interface
+namespace CapitalDemo.Service.Contracts.Interface;
+
+public interface IEmployerService
 {
-    internal interface IEmployerService
-    {
-    }
+    EmployerRsp<EmployerDto> CreateAsync(CreateEmployerReq req);
+    Task<EmployerRsp<EmployerDto>> UpdateAsync(UpdateEmployerReq req);
 }

@@ -1,5 +1,6 @@
 ﻿using CapitalDemo.Domain.Interface;
 using CapitalDemo.Domain.Models;
+using CapitalDemo.Service.Contracts.Response;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,7 +24,7 @@ namespace CapitalDemo.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Employer>> CreateAsync(Employer employer)
+        public async Task<ActionResult<BaseResponse>> CreateAsync([FromQuery] Employer employer)
         {
             var addCandidate = await _employerRepositories.CreateAsync(employer);
             return Ok(addCandidate);

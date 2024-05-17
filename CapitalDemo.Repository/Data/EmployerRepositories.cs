@@ -39,7 +39,7 @@ public class EmployerRepositories : IEmployerRepositories
     }
     public async Task<Employer> CreateAsync(Employer employer)
     {
-        employer.YearOfGraduation = YearOfGraduationEnum.Default.ToString();
+        employer.YearOfGraduation = ((int)YearOfGraduationEnum.Default);
         return await _employerContainer.CreateItemAsync(employer);
     }
 
@@ -49,7 +49,7 @@ public class EmployerRepositories : IEmployerRepositories
     //}
 
 
-    public Task<Employer> UpdateAsync(string id, Employer employer)
+    public Task<Employer> UpdateAsync(Employer employer)
     {
         throw new NotImplementedException();
     }

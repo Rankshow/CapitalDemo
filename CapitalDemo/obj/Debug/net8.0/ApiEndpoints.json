@@ -34,14 +34,54 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "employer",
-        "Type": "CapitalDemo.Domain.Models.Employer",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CandidateId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmployerId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Paragraph",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "YearOfGraduation",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MultipleChoice",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "YesOrNo",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "YearsOfExperience",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "YearMovedToUk",
+        "Type": "System.DateTime",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "CapitalDemo.Domain.Models.Employer",
+        "Type": "CapitalDemo.Service.Contracts.Response.BaseResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

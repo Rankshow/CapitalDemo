@@ -76,3 +76,5 @@ C:\Users\User\source\repos\CapitalDemo\CapitalDemo\obj\Debug\net8.0\refint\Capit
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo\obj\Debug\net8.0\CapitalDemo.pdb
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo\obj\Debug\net8.0\CapitalDemo.genruntimeconfig.cache
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo\obj\Debug\net8.0\ref\CapitalDemo.dll
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

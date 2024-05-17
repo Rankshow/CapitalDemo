@@ -13,9 +13,25 @@ public static class EmployerExtension
             Paragraph = req.Paragraph,
             YesOrNo = req.YesOrNo,
             YearMovedToUk = req.YearMovedToUk.Date,
-            YearOfGraduation = req.YearOfGraduation.ToString(),
+            YearOfGraduation = ((int)req.YearOfGraduation),
             YearsOfExperience = req.YearsOfExperience,
             MultipleChoice = req.MultipleChoice
+        };
+    }
+
+    public static EmployerDto AsDto(this EmployerDto dto)
+    {
+        return new EmployerDto
+        {
+            Id = dto.Id,
+            CandidateId = dto.CandidateId,
+            EmployerId = dto.EmployerId,
+            MultipleChoice = dto.MultipleChoice,    
+            Paragraph = dto.Paragraph,
+            YearMovedToUk = dto.YearMovedToUk,  
+            YearOfGraduation = dto.YearOfGraduation,
+            YearsOfExperience = dto.YearsOfExperience,
+            YesOrNo = dto.YesOrNo,
         };
     }
 
@@ -29,7 +45,7 @@ public static class EmployerExtension
             MultipleChoice = req.MultipleChoice,
             YearOfGraduation = req.YearOfGraduation,
             YearsOfExperience = req.YearsOfExperience,
-            
-        }
+            YearMovedToUk = req.YearMovedToUk,
+        };
     }
 }

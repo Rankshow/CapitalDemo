@@ -17,9 +17,4 @@
     <ProjectReference Include="..\CapitalDemo.Repository\CapitalDemo.Repository.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Implementation\" />
-    <Folder Include="Validation\" />
-  </ItemGroup>
-
 </Project>
