@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -207,6 +211,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -261,6 +273,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Repository\\CapitalDemo.Repository.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Repository\\CapitalDemo.Repository.csproj"
+              },
               "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Service\\CapitalDemo.Service.csproj": {
                 "projectPath": "C:\\Users\\User\\source\\repos\\CapitalDemo\\CapitalDemo.Service\\CapitalDemo.Service.csproj"
               }

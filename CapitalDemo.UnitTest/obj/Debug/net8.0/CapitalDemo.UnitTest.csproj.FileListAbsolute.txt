@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.UnitTest\bin\Debug\net8.0\CapitalDemo.UnitTest.deps.json
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.UnitTest\bin\Debug\net8.0\CapitalDemo.UnitTest.dll
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.UnitTest\bin\Debug\net8.0\CapitalDemo.UnitTest.pdb
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.UnitTest\obj\Debug\net8.0\CapitalDemo.UnitTest.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.UnitTest\obj\Debug\net8.0\CapitalDemo.UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.UnitTest\obj\Debug\net8.0\CapitalDemo.UnitTest.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.UnitTest\obj\Debug\net8.0\CapitalDemo.UnitTest.AssemblyInfo.cs
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.UnitTest\obj\Debug\net8.0\CapitalDemo.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.UnitTest\obj\Debug\net8.0\CapitalDemo.UnitTest.dll
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.UnitTest\obj\Debug\net8.0\refint\CapitalDemo.UnitTest.dll
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.UnitTest\obj\Debug\net8.0\CapitalDemo.UnitTest.pdb
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.UnitTest\obj\Debug\net8.0\ref\CapitalDemo.UnitTest.dll

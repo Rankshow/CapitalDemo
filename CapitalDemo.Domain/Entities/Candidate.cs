@@ -1,26 +1,31 @@
-﻿using System.Text.Json.Serialization;
+﻿using Newtonsoft.Json;
+
 
 namespace CapitalDemo.Domain.Models;
 
-public class Candidate : Common
+public class Candidate
 {
-    [JsonPropertyName("firstName")]
+    [JsonProperty("id")]
+    public string Id { get; set; }
+    [JsonProperty("firstName")]
     public string FirstName { get; set; }
-    [JsonPropertyName("lastName")]
+    [JsonProperty("candidateId")]
+    public string CandidateId { get; set; }
+    [JsonProperty("lastName")]
     public string LastName { get; set; }
-    [JsonPropertyName("email")]
+    [JsonProperty("email")]
     public string Email { get; set; }
-    [JsonPropertyName("phone")]
+    [JsonProperty("phone")]
     public string Phone { get; set; }
-    [JsonPropertyName("nationality")]
+    [JsonProperty("nationality")]
     public string Nationality { get; set; }
-    [JsonPropertyName("currentResidence")]
+    [JsonProperty("currentResidence")]
     public string CurrentResidence { get; set; }
-    [JsonPropertyName("idNumber")]
+    [JsonProperty("idNumber")]
     public double IDNumber { get; set; }
-    [JsonPropertyName("dateOfBirth")]
-    public DateOnly DateOfBirth { get; set; }
-    [JsonPropertyName("gender")]
+    [JsonProperty("dateOfBirth")]
+    public DateTime DateOfBirth { get; set; }
+    [JsonProperty("gender")]
     public string Gender {  get; set; }
     public ICollection<Employer> Employers { get; set; }
 }

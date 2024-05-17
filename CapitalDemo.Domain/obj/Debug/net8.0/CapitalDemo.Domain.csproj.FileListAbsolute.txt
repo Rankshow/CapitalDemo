@@ -3,3 +3,10 @@ C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\Capit
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\CapitalDemo.Domain.AssemblyInfoInputs.cache
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\CapitalDemo.Domain.AssemblyInfo.cs
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\CapitalDemo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\bin\Debug\net8.0\CapitalDemo.Domain.deps.json
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\bin\Debug\net8.0\CapitalDemo.Domain.dll
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\bin\Debug\net8.0\CapitalDemo.Domain.pdb
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\CapitalDemo.Domain.dll
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\refint\CapitalDemo.Domain.dll
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\CapitalDemo.Domain.pdb
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\ref\CapitalDemo.Domain.dll

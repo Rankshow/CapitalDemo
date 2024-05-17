@@ -1,3 +1,6 @@
+using CapitalDemo.Repository;
+using Microsoft.Azure.Cosmos;
+
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
 
@@ -7,14 +10,30 @@ builder.Services.AddSingleton((provider) =>
     var endpointUri = configuration["CosmosDBSettings:EndpointUri"];
     var primaryKey = configuration["CosmosDBSettings:PrimaryKey"];
     var databaseName = configuration["CosmosDBSettings:DatabaseName"];
-   
-    var CosmosClientOption = CosmosClientOption
+
+    var cosmosClientOptions = new CosmosClientOptions
+    {
+        ApplicationName = databaseName,
+    };
+
+    var loggerFactory = LoggerFactory.Create(builder =>
+    {
+        builder.AddConsole();
+    });
+
+    var cosmosClient = new CosmosClient(endpointUri, primaryKey, cosmosClientOptions);
+
+    cosmosClient.ClientOptions.ConnectionMode = ConnectionMode.Direct;
+
+    return cosmosClient;
 });
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddRepository();
 
 var app = builder.Build();
 

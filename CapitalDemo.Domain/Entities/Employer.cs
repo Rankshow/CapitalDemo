@@ -1,19 +1,24 @@
-﻿using System.Text.Json.Serialization;
-
+﻿using Newtonsoft.Json;
 namespace CapitalDemo.Domain.Models;
 
-public class Employer : Common
+public class Employer
 {
-    [JsonPropertyName("paragraph")]
+    [JsonProperty("id")]
+    public string Id { get; set; }
+    [JsonProperty("candidateId")]
+    public string CandidateId { get; set; }
+    [JsonProperty("employerId")]
+    public string EmployerId { get; set; }
+    [JsonProperty("paragraph")]
     public string Paragraph { get; set; }
-    [JsonPropertyName("yearOfGraduation")]
+    [JsonProperty("yearOfGraduation")]
     public string YearOfGraduation { get; set; }
-    [JsonPropertyName("multipleChoice")]
+    [JsonProperty("multipleChoice")]
     public string[] MultipleChoice { get; set; }
-    [JsonPropertyName("yesOrNo")]
+    [JsonProperty("yesOrNo")]
     public bool YesOrNo {  get; set; }
-    [JsonPropertyName("yearOfExperience")]
+    [JsonProperty("yearOfExperience")]
     public int YearsOfExperience { get; set; }
-    [JsonPropertyName("yearMovedToUk")]
-    public DateOnly YearMovedToUk { get; set; }
+    [JsonProperty("yearMovedToUk")]
+    public DateTime YearMovedToUk { get; set; }
 }

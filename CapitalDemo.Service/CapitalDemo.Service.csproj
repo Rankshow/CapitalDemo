@@ -7,12 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.1" />
     <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CapitalDemo.Domain\CapitalDemo.Domain.csproj" />
     <ProjectReference Include="..\CapitalDemo.Repository\CapitalDemo.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Implementation\" />
+    <Folder Include="Validation\" />
   </ItemGroup>
 
 </Project>
