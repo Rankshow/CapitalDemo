@@ -6,6 +6,6 @@ namespace CapitalDemo.Service.Contracts.Interface;
 
 public interface IEmployerService
 {
-    EmployerRsp<EmployerDto> CreateAsync(CreateEmployerReq req);
+    Task<EmployerRsp<EmployerDto>> CreateAsync(CreateEmployerReq req);
     Task<EmployerRsp<EmployerDto>> UpdateAsync(UpdateEmployerReq req);
 }

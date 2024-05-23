@@ -78,3 +78,4 @@ C:\Users\User\source\repos\CapitalDemo\CapitalDemo\obj\Debug\net8.0\CapitalDemo.
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo\obj\Debug\net8.0\ref\CapitalDemo.dll
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo\obj\Debug\net8.0\CapitalDemo.sourcelink.json

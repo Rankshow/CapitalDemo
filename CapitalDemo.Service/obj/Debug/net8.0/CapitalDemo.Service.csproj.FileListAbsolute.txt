@@ -20,3 +20,4 @@ C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Service\obj\Debug\net8.0\Capi
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Service\obj\Debug\net8.0\refint\CapitalDemo.Service.dll
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Service\obj\Debug\net8.0\CapitalDemo.Service.pdb
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Service\obj\Debug\net8.0\ref\CapitalDemo.Service.dll
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Service\obj\Debug\net8.0\CapitalDemo.Service.sourcelink.json

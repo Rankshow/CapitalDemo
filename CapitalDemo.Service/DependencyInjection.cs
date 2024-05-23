@@ -13,7 +13,7 @@ public static class DependencyInjection
     {
         services.AddScoped<IEmployerService, EmployerService>();
         services.AddScoped<ICandidateService, CandidateService>();
-        services.AddScoped<IValidator<CreateEmployerReq>, CreateEmployerValidation>();
+        //services.AddScoped<IValidator<CreateEmployerReq>, CreateEmployerValidation>();
         //services.AddScoped<IValidator<UpdateEmployerReq>, UpdateEmployerValidation>();
         return services;
     }

@@ -12,8 +12,8 @@ public static class EmployerExtension
         {
             Paragraph = req.Paragraph,
             YesOrNo = req.YesOrNo,
-            YearMovedToUk = req.YearMovedToUk.Date,
-            YearOfGraduation = ((int)req.YearOfGraduation),
+            YearMovedToUk = req.YearMovedToUk,
+            YearOfGraduation =  req.YearOfGraduation.ToString(),
             YearsOfExperience = req.YearsOfExperience,
             MultipleChoice = req.MultipleChoice
         };
@@ -46,6 +46,8 @@ public static class EmployerExtension
             YearOfGraduation = req.YearOfGraduation,
             YearsOfExperience = req.YearsOfExperience,
             YearMovedToUk = req.YearMovedToUk,
+            Paragraph = req.Paragraph,
+            YesOrNo = req.YesOrNo,
         };
     }
 }

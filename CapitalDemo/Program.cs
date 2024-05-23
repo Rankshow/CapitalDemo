@@ -1,4 +1,5 @@
 using CapitalDemo.Repository;
+using CapitalDemo.Service;
 using Microsoft.Azure.Cosmos;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -33,7 +34,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddRepository();
+builder.Services
+    .AddRepository()
+    .AddService();
 
 var app = builder.Build();
 

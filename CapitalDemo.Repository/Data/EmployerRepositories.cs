@@ -39,16 +39,11 @@ public class EmployerRepositories : IEmployerRepositories
     }
     public async Task<Employer> CreateAsync(Employer employer)
     {
-        employer.YearOfGraduation = ((int)YearOfGraduationEnum.Default);
+        employer.YearOfGraduation = YearOfGraduationEnum.Default.ToString();
         return await _employerContainer.CreateItemAsync(employer);
     }
 
-    //public Task<Employer> CreateAsync(Employer employer)
-    //{
-    //    throw new NotImplementedException();
-    //}
-
-
+    //DateOnly.FromDateTime(DateTime.Now)
     public Task<Employer> UpdateAsync(Employer employer)
     {
         throw new NotImplementedException();

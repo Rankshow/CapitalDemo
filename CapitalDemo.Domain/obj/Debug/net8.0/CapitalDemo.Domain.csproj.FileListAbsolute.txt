@@ -10,3 +10,4 @@ C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\Capit
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\refint\CapitalDemo.Domain.dll
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\CapitalDemo.Domain.pdb
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\ref\CapitalDemo.Domain.dll
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Domain\obj\Debug\net8.0\CapitalDemo.Domain.sourcelink.json

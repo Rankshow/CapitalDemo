@@ -1,4 +1,6 @@
 ﻿using CapitalDemo.Domain.Interface;
+using CapitalDemo.Domain.Models;
+using CapitalDemo.Repository.Enum;
 using CapitalDemo.Service.Contracts.Dtos;
 using CapitalDemo.Service.Contracts.Extension;
 using CapitalDemo.Service.Contracts.Interface;
@@ -14,14 +16,14 @@ public class EmployerService : IEmployerService
     {
         _employerRepositories = employerRepositories;        
     }
-    public EmployerRsp<EmployerDto> CreateAsync(CreateEmployerReq req)
+    public async Task<EmployerRsp<EmployerDto>> CreateAsync(CreateEmployerReq req)
     {
         var createEmployer = req.AsEntity();
-        _employerRepositories.CreateAsync(createEmployer);
+        await _employerRepositories.CreateAsync(createEmployer);
         return new EmployerRsp<EmployerDto>
         {
             Message = "Success",
-            Code = "200"
+            Code = "200",
         };
     }
 

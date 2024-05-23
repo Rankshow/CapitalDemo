@@ -18,3 +18,4 @@ C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Repository\obj\Debug\net8.0\C
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Repository\obj\Debug\net8.0\refint\CapitalDemo.Repository.dll
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Repository\obj\Debug\net8.0\CapitalDemo.Repository.pdb
 C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Repository\obj\Debug\net8.0\ref\CapitalDemo.Repository.dll
+C:\Users\User\source\repos\CapitalDemo\CapitalDemo.Repository\obj\Debug\net8.0\CapitalDemo.Repository.sourcelink.json

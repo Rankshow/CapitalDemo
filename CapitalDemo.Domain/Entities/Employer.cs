@@ -4,21 +4,21 @@ namespace CapitalDemo.Domain.Models;
 public class Employer
 {
     [JsonProperty("id")]
-    public string? Id { get; set; }
+    public string Id { get; set; }
     [JsonProperty("candidateId")]
-    public string? CandidateId { get; set; }
+    public string CandidateId { get; set; }
     [JsonProperty("employerId")]
-    public string? EmployerId { get; set; }
+    public string EmployerId { get; set; }
     [JsonProperty("paragraph")]
-    public string? Paragraph { get; set; }
+    public string Paragraph { get; set; }
     [JsonProperty("yearOfGraduation")]
-    public int YearOfGraduation { get; set; }
+    public string YearOfGraduation { get; set; }
     [JsonProperty("multipleChoice")]
-    public string[]? MultipleChoice { get; set; }
+    public string[] MultipleChoice { get; set; }
     [JsonProperty("yesOrNo")]
     public bool YesOrNo {  get; set; }
     [JsonProperty("yearOfExperience")]
-    public int YearsOfExperience { get; set; }
+    public string YearsOfExperience { get; set; }
     [JsonProperty("yearMovedToUk")]
-    public DateTime YearMovedToUk { get; set; }
+    public DateTime YearMovedToUk { get; set; } 
 }

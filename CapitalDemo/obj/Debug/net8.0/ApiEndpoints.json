@@ -28,7 +28,7 @@
   {
     "ContainingType": "CapitalDemo.Controllers.EmployerController",
     "Method": "CreateAsync",
-    "RelativePath": "api/Employer",
+    "RelativePath": "api/employers",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -55,7 +55,7 @@
       },
       {
         "Name": "YearOfGraduation",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
@@ -70,7 +70,7 @@
       },
       {
         "Name": "YearsOfExperience",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
@@ -82,32 +82,6 @@
     "ReturnTypes": [
       {
         "Type": "CapitalDemo.Service.Contracts.Response.BaseResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "CapitalDemo.Controllers.EmployerController",
-    "Method": "GetAllAsync",
-    "RelativePath": "api/Employer/candidate/{candidateId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "candidateId",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[CapitalDemo.Domain.Models.Employer, CapitalDemo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
